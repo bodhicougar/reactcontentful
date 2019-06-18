@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import List from './Components/List'
-import Title from './Components/Title'
+import List from './Practice/List'
+import Title from './Practice/Title'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
@@ -44,8 +44,8 @@ class App extends Component {
               <Services />
               <Blogs />
               <Contact />              
-              <Title title = {'Studentenliste'} />
-              <List students = {this.state.names} onRemoveName = {this.removeName}  />
+              // <Title title = {'Studentenliste'} />
+              // <List students = {this.state.names} onRemoveName = {this.removeName}  />
               <Footer />
           </div>
       );
