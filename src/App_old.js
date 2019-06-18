@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import List from './Components/List'
 import Title from './Components/Title'
 
-
 class App extends Component {
   constructor() {
       super()
@@ -11,6 +10,7 @@ class App extends Component {
       }
       this.removeName = this.removeName.bind(this)
   }
+  
   removeName(nameRemoved) {
       console.log(nameRemoved)
       this.setState((state) => ({
