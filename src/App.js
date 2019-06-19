@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import List from './Practice/List'
-import Title from './Practice/Title'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
@@ -26,14 +24,7 @@ class App extends Component {
       })   
       )
   }
-  componentDidMount() {
-        const data = simulateFetchFromDatabase()
-        this.setState({
-            names: data
-        })
-        console.log('ComponentDidMount')
-  }
-
+  
   render() {
       console.log('render')
       return(
@@ -49,9 +40,6 @@ class App extends Component {
       );
   }
 }
-
-// <Title title = {'Studentenliste'} />
-// <List students = {this.state.names} onRemoveName = {this.removeName}  />
 
 function simulateFetchFromDatabase() {
     return ['Johnny','Smith', 'Harry']
