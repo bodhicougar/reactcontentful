@@ -44,13 +44,14 @@ class App extends Component {
               <Services />
               <Blogs />
               <Contact />              
-              // <Title title = {'Studentenliste'} />
-              // <List students = {this.state.names} onRemoveName = {this.removeName}  />
               <Footer />
           </div>
       );
   }
 }
+
+// <Title title = {'Studentenliste'} />
+// <List students = {this.state.names} onRemoveName = {this.removeName}  />
 
 function simulateFetchFromDatabase() {
     return ['Johnny','Smith', 'Harry']
