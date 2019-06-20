@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
@@ -15,17 +17,19 @@ class App extends Component {
     }
 
     render() {
-        
+
         return (
-            <div className="">
-                <Navbar />
-                <Home />
-                <About />
-                <Services />
-                <Blogs />
-                <Contact />
-                <Footer />
-            </div>
+            <Router>
+                <div className="">
+                    <Navbar />
+                    <Route exact path="/" component = {Home} />
+                    <Route exact path="/About" component = {About} />
+                    <Route exact path="/Services" component = {Services} />
+                    <Route exact path="/Blogs" component ={ Blogs} />
+                    <Route exact path="/Contact" component = {Contact} />
+                    <Footer />
+                </div>
+            </Router>
         );
     }
 }
