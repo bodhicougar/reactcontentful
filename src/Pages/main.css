@@ -188,3 +188,26 @@ input[type="checkbox"]:checked ~ .grid { opacity: .125; }
 .spacer {
     min-height:100px;
 }
+
+#services {
+  background:#000 url(../images/services/bg_services.jpg);
+  background-size: cover;
+}
+
+#services h2 {
+  color:#fff;
+}
+#services .lead {
+  color:#fff;
+}
+
+.service-wrap {
+    background:#fff;
+    padding:20px;
+    border-radius:6px;
+    margin-bottom:20px;
+}
+
+.service-wrap .media-heading {
+  font-size:18px;
+}
