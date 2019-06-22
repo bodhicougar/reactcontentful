@@ -6,11 +6,11 @@ class Home extends Component {
     render() {
         return (
             <div>
-                {/* Carousel section starts here */}
+                {/* Corousel section starts here */}
                 <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={Slider1} className="d-block w-100" alt="Unser Team" />
+                            <img src={Slider1} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
                             <img src={Slider1} className="d-block w-100" alt="..." />
@@ -28,56 +28,54 @@ class Home extends Component {
                         <span className="sr-only">Next</span>
                     </a>
                 </div>
-                {/* Carousel section ends here */}
+                {/* Corousel section ends here */}
                 <section id="feature">
                     <div className="container text-center pt-4">
                         <h2>Features</h2>
-                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum vitae ex tempus sagittis vel eu magna. Quisque nunc nulla, sollicitudin in tincidunt eu, condimentum at ante.</p>
+                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam laoreet nunc, eu gravida ex interdum in. Curabitur feugiat et mauris non scelerisque. </p>
                     </div>
-                    <div className="Container">
+                    <div className="container">
                         <div className="row">
                             <div className="col-md-4">
-                                <div ClassName="feature-wrap">
-                                    <i className="fas fa-laptop">
-                                        <h2>Fresh and Clean</h2>
-                                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                                    </i>
+                                <div className="feature-wrap">
+                                    <i className="fa fa-laptop"></i>
+                                    <h2>Fresh and Clean</h2>
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div ClassName="feature-wrap">
-                                    <i className="fas fa-comments">
-                                        <h2>Fresh and Clean</h2>
-                                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                                    </i>
+                                <div className="feature-wrap">
+                                    <i className="fa fa-comments"></i>
+                                    <h2>Retina ready</h2>
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                                 </div>
-                            </div><div className="col-md-4">
-                                <div ClassName="feature-wrap">
-                                    <i className="fas fa-leaf">
-                                        <h2>Fresh and Clean</h2>
-                                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                                    </i>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="feature-wrap">
+                                    <i className="fa fa-heart"></i>
+                                    <h2>Fresh and Clean</h2>
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                                 </div>
-                            </div><div className="col-md-4">
-                                <div ClassName="feature-wrap">
-                                    <i className="fas fa-cogs">
-                                        <h2>Fresh and Clean</h2>
-                                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                                    </i>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="feature-wrap">
+                                    <i className="fa fa-leaf"></i>
+                                    <h2>Fresh and Clean</h2>
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                                 </div>
-                            </div><div className="col-md-4">
-                                <div ClassName="feature-wrap">
-                                    <i className="fas fa-download">
-                                        <h2>Fresh and Clean</h2>
-                                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                                    </i>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="feature-wrap">
+                                    <i className="fa fa-cogs"></i>
+                                    <h2>Fresh and Clean</h2>
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                                 </div>
-                            </div><div className="col-md-4">
-                                <div ClassName="feature-wrap">
-                                    <i className="fas fa-heart">
-                                        <h2>Fresh and Clean</h2>
-                                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                                    </i>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="feature-wrap">
+                                    <i className="fa fa-download"></i>
+                                    <h2>Fresh and Clean</h2>
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                                 </div>
                             </div>
                         </div>
@@ -86,63 +84,64 @@ class Home extends Component {
                 <section id="portfolio">
                     <div className="container text-center pt-4">
                         <h2>Portfolio</h2>
-                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum vitae ex tempus sagittis vel eu magna. Quisque nunc nulla, sollicitudin in tincidunt eu, condimentum at ante.</p>
+                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam laoreet nunc, eu gravida ex interdum in. Curabitur feugiat et mauris non scelerisque. </p>
                     </div>
                     <div className="container">
                         <input type="checkbox" id="pic-1" />
-                        <label for="pic-1" className="lightbox"><img src="http://unsplash.it/800/600?image=1" /></label>
+                        <label for="pic-1" class="lightbox"><img src="http://unsplash.it/800/600?image=1" /></label>
                         <input type="checkbox" id="pic-2" />
-                        <label for="pic-2" className="lightbox"><img src="http://unsplash.it/800/600?image=20" /></label>
+                        <label for="pic-2" class="lightbox"><img src="http://unsplash.it/800/600?image=20" /></label>
                         <input type="checkbox" id="pic-3" />
-                        <label for="pic-3" className="lightbox"><img src="http://unsplash.it/800/600?image=21" /></label>
+                        <label for="pic-3" class="lightbox"><img src="http://unsplash.it/800/600?image=21" /></label>
                         <input type="checkbox" id="pic-4" />
-                        <label for="pic-4" className="lightbox"><img src="http://unsplash.it/800/600?image=42" /></label>
+                        <label for="pic-4" class="lightbox"><img src="http://unsplash.it/800/600?image=42" /></label>
                         <input type="checkbox" id="pic-5" />
-                        <label for="pic-5" className="lightbox"><img src="http://unsplash.it/800/600?image=48" /></label>
+                        <label for="pic-5" class="lightbox"><img src="http://unsplash.it/800/600?image=48" /></label>
                         <input type="checkbox" id="pic-6" />
-                        <label for="pic-6" className="lightbox"><img src="http://unsplash.it/800/600?image=60" /></label>
+                        <label for="pic-6" class="lightbox"><img src="http://unsplash.it/800/600?image=60" /></label>
                         <input type="checkbox" id="pic-7" />
-                        <label for="pic-7" className="lightbox"><img src="http://unsplash.it/800/600?image=201" /></label>
+                        <label for="pic-7" class="lightbox"><img src="http://unsplash.it/800/600?image=201" /></label>
                         <input type="checkbox" id="pic-8" />
-                        <label for="pic-8" className="lightbox"><img src="http://unsplash.it/800/600?image=7" /></label>
+                        <label for="pic-8" class="lightbox"><img src="http://unsplash.it/800/600?image=7" /></label>
                         <input type="checkbox" id="pic-9" />
-                        <label for="pic-9" className="lightbox"><img src="http://unsplash.it/800/600?image=119" /></label>
+                        <label for="pic-9" class="lightbox"><img src="http://unsplash.it/800/600?image=119" /></label>
                         <input type="checkbox" id="pic-10" />
-                        <label for="pic-10" className="lightbox"><img src="http://unsplash.it/800/600?image=180" /></label>
+                        <label for="pic-10" class="lightbox"><img src="http://unsplash.it/800/600?image=180" /></label>
                         <input type="checkbox" id="pic-11" />
-                        <label for="pic-11" className="lightbox"><img src="http://unsplash.it/800/600?image=96" /></label>
+                        <label for="pic-11" class="lightbox"><img src="http://unsplash.it/800/600?image=96" /></label>
                         <input type="checkbox" id="pic-12" />
-                        <label for="pic-12" className="lightbox"><img src="http://unsplash.it/800/600?image=24" /></label>
-                        <div className="grid">
-                            <label for="pic-1" className="grid-item"><img src="http://unsplash.it/400/300?image=1" /></label>
-                            <label for="pic-2" className="grid-item"><img src="http://unsplash.it/400/300?image=20" /></label>
-                            <label for="pic-3" className="grid-item"><img src="http://unsplash.it/400/300?image=21" /></label>
-                            <label for="pic-4" className="grid-item"><img src="http://unsplash.it/400/300?image=42" /></label>
-                            <label for="pic-5" className="grid-item"><img src="http://unsplash.it/400/300?image=48" /></label>
-                            <label for="pic-6" className="grid-item"><img src="http://unsplash.it/400/300?image=60" /></label>
-                            <label for="pic-7" className="grid-item"><img src="http://unsplash.it/400/300?image=201" /></label>
-                            <label for="pic-8" className="grid-item"><img src="http://unsplash.it/400/300?image=7" /></label>
-                            <label for="pic-9" className="grid-item"><img src="http://unsplash.it/400/300?image=119" /></label>
-                            <label for="pic-10" className="grid-item"><img src="http://unsplash.it/400/300?image=180" /></label>
-                            <label for="pic-11" className="grid-item"><img src="http://unsplash.it/400/300?image=96" /></label>
-                            <label for="pic-12" className="grid-item"><img src="http://unsplash.it/400/300?image=24" /></label>
+                        <label for="pic-12" class="lightbox"><img src="http://unsplash.it/800/600?image=24" /></label>
+                        <div class="grid">
+                            <label for="pic-1" class="grid-item"><img src="http://unsplash.it/400/300?image=1" /></label>
+                            <label for="pic-2" class="grid-item"><img src="http://unsplash.it/400/300?image=20" /></label>
+                            <label for="pic-3" class="grid-item"><img src="http://unsplash.it/400/300?image=21" /></label>
+                            <label for="pic-4" class="grid-item"><img src="http://unsplash.it/400/300?image=42" /></label>
+                            <label for="pic-5" class="grid-item"><img src="http://unsplash.it/400/300?image=48" /></label>
+                            <label for="pic-6" class="grid-item"><img src="http://unsplash.it/400/300?image=60" /></label>
+                            <label for="pic-7" class="grid-item"><img src="http://unsplash.it/400/300?image=201" /></label>
+                            <label for="pic-8" class="grid-item"><img src="http://unsplash.it/400/300?image=7" /></label>
+                            <label for="pic-9" class="grid-item"><img src="http://unsplash.it/400/300?image=119" /></label>
+                            <label for="pic-10" class="grid-item"><img src="http://unsplash.it/400/300?image=180" /></label>
+                            <label for="pic-11" class="grid-item"><img src="http://unsplash.it/400/300?image=96" /></label>
+                            <label for="pic-12" class="grid-item"><img src="http://unsplash.it/400/300?image=24" /></label>
                         </div>
                     </div>
                 </section>
                 <section id="faqs">
                     <div className="container text-center pt-4">
-                        <h2>Faq's</h2>
-                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum vitae ex tempus sagittis vel eu magna. Quisque nunc nulla, sollicitudin in tincidunt eu, condimentum at ante.</p>
+                        <h2>Faqs</h2>
+                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam laoreet nunc, eu gravida ex interdum in. Curabitur feugiat et mauris non scelerisque. </p>
                     </div>
                     <div className="container mt-10">
-                        {/* <h4>Accordion Style : Demo-3</h4> */}
+
                         <div className="col-md-12">
+
 
                             <div className="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
                                 <div className="panel panel-default">
                                     <div className="panel-heading" role="tab" id="headingOne3">
                                         <h4 className="panel-title">
-                                            <a role="button" className="collapse" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                                            <a role="button" className="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
                                                 Section 1
                                     </a>
                                         </h4>
@@ -186,12 +185,9 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <div className="spacer">
-
-                </div>
+                <div className="spacer"></div>
             </div>
         );
     }
 }
-
 export default Home
