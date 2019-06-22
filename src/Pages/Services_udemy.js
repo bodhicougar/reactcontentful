@@ -1,10 +1,10 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import Service1 from '../images/services/services1.png'
 import Service2 from '../images/services/services2.png'
- 
+
 class Services extends Component {
     render() {
-        return(
+        return (
             <div>
                 <section id="services" className="p-4">
                     <div className="container">
@@ -46,7 +46,7 @@ class Services extends Component {
                                     </div>
                                 </div>
                             </div>
- 
+
                             <div className="col-md-4">
                                 <div className="media service-wrap">
                                     <div>

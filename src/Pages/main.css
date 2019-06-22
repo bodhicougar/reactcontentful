@@ -211,3 +211,14 @@ input[type="checkbox"]:checked ~ .grid { opacity: .125; }
 .service-wrap .media-heading {
   font-size:18px;
 }
+
+.blog-content {
+  padding-bottom:50px;
+}
+.blog-content h3 {
+  font-size:25px;
+}
+.img-blog {
+  border-radius:5px;
+  padding-bottom: 20px;
+}
