@@ -1,18 +1,25 @@
 import React, { Component } from 'react'
 import client from './Client'
 import BlackLoader from '../images/black-loader.gif'
+import marked from 'marked'
 
 class About extends Component {
     constructor() {
         super()
-        this.state = {aboutPage: []}
+        this.state = { aboutPage: []}
     }
     componentDidMount() {
         client.getEntries({
-            'content_type' : 'about'
+            'content_type': 'about'
         }).then((entries) => {
-            this.setState({aboutpage: entries.items[0]}) // 200
+            this.setState({ aboutpage: entries.items[0] })
         })
+    }
+
+    getParsedMarkdown(aboutDescription) {
+        return {
+            __html: marked(aboutDescription, { sanitize: true })
+        }
     }
 
     render() {
@@ -23,12 +30,15 @@ class About extends Component {
                     {this.state.aboutPage.length === 0 ?
                         <div align="center" className="pt-5"> <img src={BlackLoader} alt="Loader" /></div>
                         :
-                        <p>{this.state.aboutpage.fields.aboutDescription}</p>
+                        <div dangerouslySetInnerHTML={this.getParsedMarkdown(this.state.aboutpage.fields.aboutDescription)}>
+
+                        </div>
+                        // <p>{this.state.aboutpage.fields.aboutDescription}</p>
                     }
                 </div>
             </div>
-                );
-            }
-        }
-        
+        );
+    }
+}
+
 export default About
