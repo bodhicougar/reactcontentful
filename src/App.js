@@ -13,7 +13,6 @@ import Contact from './Pages/Contact'
 class App extends Component {
     constructor() {
         super()
-
     }
 
     render() {
